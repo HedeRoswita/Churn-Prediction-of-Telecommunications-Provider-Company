@@ -24,3 +24,4 @@ The dataset used in this project is a customer data set of a telecommunications 
 The results of this project will be a set of predictive models that can be used to identify customers who are at risk of churn. The company can use these models to target these customers with retention campaigns or to offer them incentives to stay.
 # 3. Conclusion
 
+The Support Vector Machine model performed the best, with an F1 score of 0.74 and an AUC score of 0.69. It also showed no signs of overfitting or underfitting. Therefore, the Support Vector Machine model was chosen as the best model for predicting customer churn.
