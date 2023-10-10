@@ -21,7 +21,7 @@ The following machine learning algorithms will be used to build the predictive m
 - Support Vector Machine
   
 The dataset used in this project is a customer data set of a telecommunications provider, extracted from Kaggle (https://www.kaggle.com/competitions/customer-churn-prediction-2020/overview). The training data will be used to build the predictive models and to evaluate the best model, which will then be used to predict the test data.
-The results of this project will be a set of predictive models that can be used to identify customers who are at risk of churn. The company can use these models to target these customers with retention campaigns or to offer them incentives to stay.
+
 # 3. Data Dictionary
 
 The training dataset contains 4250 samples. Each sample contains 19 features and 1 boolean variable "churn" which indicates the class of the sample. The 19 input features and 1 target variable are:
@@ -69,3 +69,9 @@ The training dataset contains 4250 samples. Each sample contains 19 features and
 # 4. Conclusion
 
 The Support Vector Machine model performed the best, with an F1 score of 0.74 and an AUC score of 0.69. It also showed no signs of overfitting or underfitting. Therefore, the Support Vector Machine model was chosen as the best model for predicting customer churn.
+
+The final model was saved and used to predict the new dataset. The final prediction data can be found on the repository under the name new_dataset_with_predictions.csv. The model predicted that 37.47% of customers will churn and the other 62.53% will not.
+
+This means that the model predicts that over one-third of customers are at risk of churning. This is a significant number, and it is important for the company to take proactive measures to retain these customers.
+
+The company can use the prediction data to identify customers who are at risk of churning and to target them with retention campaigns. For example, the company could offer these customers discounts, or improved customer service.
